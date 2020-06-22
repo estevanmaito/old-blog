@@ -1,3 +1,5 @@
+# Improvig developer experience
+
 For the past months, I've been really interested in accessibility, mostly in the sense of disabled people, which I think it's what most people do.
 
 But recently I found that I can apply a lot of concepts to my daily code, to improve my own experience, and realised that accessibility is, in a way, just a word for: making everybody's life easier.

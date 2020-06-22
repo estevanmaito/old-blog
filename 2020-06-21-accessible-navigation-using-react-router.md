@@ -79,7 +79,7 @@ function App() {
   return (
     <>
       <Router>
-        {* Here we have our announcer. Note: useLocation will only work inside a Router *}
+        {/* Here we have our announcer. Note: useLocation will only work inside a Router */}
         <AccessibleNavigationAnnouncer />
         <Switch>
           <Route path="/login" component={Login} />

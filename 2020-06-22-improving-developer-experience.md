@@ -79,6 +79,8 @@ warn(
 // prints [Windmill Button]: You are using an icon button, but no "aria-label" attribute was found. Add an "aria-label" attribute to work as a label for screen readers.
 ```
 
-You know which library and component is failing, why it's failing, how to fix it and why you should fix it.
+You know which library and component is failing, why it's failing, how to fix it and why you should fix it. In this specific example, React aXe could do the same job, but this alert is not limited to a11y messages, it can be called whenever you think somebody would benefit from a specific message.
+
+That's it for today.
 
 [@estevanmaito](https://twitter.com/estevanmaito)

@@ -1,3 +1,5 @@
+# Working with portals in Next JS
+
 Working on a modal component for Windmill React UI, I found a problem while trying to render my component with Next.js. I don't recall the exact error message, but was something along the lines of 'document is not defined'. The typical error when you're trying to use something that is DOM exclusive while still in the server, like `document` or `window`.
 
 I tried following the [`with-portals` example](https://github.com/vercel/next.js/tree/canary/examples/with-portals) on Next's repo, but it would give me this error: 'Target container is not a DOM element.'

@@ -8,3 +8,4 @@ Too much to do, too much to write... the worst blog in the web
 - [Testing React with SVG and Jest](./2020-07-09-testing-react-with-svg-and-jest.md)
 - [Testing click inside and outside React component with Enzyme](./2020-07-10-testing-click-inside-and-outside-react-component-with-enzyme.md)
 - [Apply box-shadow just to bottom](./2020-07-17-apply-box-shadow-just-to-bottom.md)
+- [How to render a different element inside a React component](./2020-07-18-how-to-render-a-different-element-inside-react-component.md)

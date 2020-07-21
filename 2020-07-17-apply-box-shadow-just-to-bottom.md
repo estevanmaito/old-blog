@@ -1,4 +1,4 @@
-# Apply box-shadow just to bottom
+# Apply box-shadow just to bottom (without side leaks)
 
 I was fighting with a header with higher `z-index` than a sidebar. The problem was that the header had a shadow that would bleed over the sidebar.
 

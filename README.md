@@ -10,3 +10,4 @@ Too much to do, too much to write... the worst blog in the web
 - [Apply box-shadow just to bottom](./2020-07-17-apply-box-shadow-just-to-bottom.md)
 - [How to render a different element inside a React component](./2020-07-18-how-to-render-a-different-element-inside-react-component.md)
 - [What is a focus trap and how it improves accessibility](./2020-07-20-what-is-focus-trap-and-how-it-improves-accessibility.md)
+- [How to add custom fonts to Tailwind CSS](./2020-07-21-how-to-add-custom-fonts-to-tailwind-css.md)

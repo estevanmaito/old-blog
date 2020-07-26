@@ -74,7 +74,7 @@ The only required field is `layout: 'post'` to tell the mdx renderer which layou
 With the magic of Tailwind's `typography` plugin, we can just add two classes to our `post` layout and it will automatically style our text. Change the return to this:
 
 ```jsx
-<div className="mx-auto prose">{content}</div>
+<div className="mx-auto my-10 prose">{content}</div>
 ```
 
 You cand find the code for this part [here](https://github.com/estevanmaito/temp-blog/tree/tutorial-part-2).

@@ -67,6 +67,45 @@ module.exports = {
 }
 ```
 
+## Add Tailwind to Next.js
+
+This is the last step.
+
+I will create a `css` folder in the root of the project that, for now, will just contain one file: `tailwind.css`
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+Now, Next needs to know that we want this CSS used, so inside `pages` folder, let's create an `_app.js` file with this content:
+
+```js
+import '@/css/tailwind.css'
+
+function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+export default App
+```
+
+This is enough to setup the project, but you may notice that I imported the CSS using `@`. It comes from a config file in the root of the project, that I'm going to create now, called `jsconfig.json` which is responsible for configuring JavaScript projects in VS Code [read more here](https://code.visualstudio.com/docs/languages/jsconfig). In our case, I'll just create an alias for the project root so even if are 11 directories deep, instead of pointing to a component like `../../../../components` we can just refer to the root with `@/components`.
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+```
+
+If you want to get the code for just this part of the tutorial, it's available in a separate branch [here](https://github.com/estevanmaito/blog/tree/tutorial-part-1).
+
 This is it for the project setup.
 
 [@estevanmaito](https://twitter.com/estevanmaito)

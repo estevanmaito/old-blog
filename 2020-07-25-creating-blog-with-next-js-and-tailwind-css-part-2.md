@@ -77,4 +77,6 @@ With the magic of Tailwind's `typography` plugin, we can just add two classes to
 <div className="mx-auto prose">{content}</div>
 ```
 
+You cand find the code for this part [here](https://github.com/estevanmaito/temp-blog/tree/tutorial-part-2).
+
 In the next post we will show a list of posts in the home page.

@@ -67,6 +67,16 @@ module.exports = {
 }
 ```
 
+Another required file is `postcss.config.js`. Next uses PostCSS under the hood, so we don't need to install it nor Autoprefixer.
+
+```js
+module.exports = {
+  plugins: ['tailwindcss'],
+}
+```
+
+Now Next knows that we are using PostCSS and Tailwind.
+
 ## Add Tailwind to Next.js
 
 This is the last step.
